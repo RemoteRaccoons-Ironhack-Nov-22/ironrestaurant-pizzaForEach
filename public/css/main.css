@@ -1,5 +1,6 @@
 body {
     background-color: rgb(255, 200, 98);
+    text-align: center;
 }
 
 nav {
@@ -8,7 +9,18 @@ nav {
     justify-content: center;
 }
 
+nav {
+    padding-top: 2rem;
+    margin-bottom: 3rem;
+}
+
 nav a {
     padding: 0 1rem;
 }
 
+.banner {
+    border: 1px solid #666;
+    background-color: rgb(180, 153, 206);
+    padding: 1rem 0 2rem;
+    margin: 2rem;
+}
