@@ -1,6 +1,43 @@
 <h1>this is the HOMEPAGE</h1>
 
-<img src="/images/home.jpg" />
+<img id="home-image" src="/images/home.jpg" />
+
+
+<section>
+    <h3>Search by price:</h3>
+
+    <form action="/pizzas" method="GET">
+
+        <label>
+            Price:
+            <input type="number" name="maxPrice" min="1" max="99">
+        </label>
+
+        <button type="submit">Search</button>
+
+    </form>
+</section>
+
+
+<section>
+    <h3>Login:</h3>
+
+    <form action="/login" method="POST">
+
+      <label>
+          Email:
+          <input type="email" name="email" />
+      </label>
+
+      <label>
+          Password:
+          <input type="password" name="pw" />
+      </label>
+
+        <button type="submit">Login</button>
+
+    </form>
+</section>
 
 
 {{> ctaOrderNow}}
